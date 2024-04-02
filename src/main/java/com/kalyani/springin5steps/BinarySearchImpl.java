@@ -7,11 +7,17 @@ import org.springframework.stereotype.Component;
 @Component
 public class BinarySearchImpl {
 
-    //@Autowired
+    @Autowired
     private SortingAlgorithm sortingAlgorithm;
 
     //Comment out @Autowired while using @Qualifier
-    public BinarySearchImpl( @Qualifier("bubble_sort") SortingAlgorithm sortingAlgorithm){
+    /*public BinarySearchImpl( @Qualifier("bubble_sort") SortingAlgorithm sortingAlgorithm){
+        this.sortingAlgorithm = sortingAlgorithm;
+    }*/
+    /*public BinarySearchImpl(SortingAlgorithm sortingAlgorithm){
+        this.sortingAlgorithm = sortingAlgorithm;
+    }*/
+    public void setSortingAlgorithm(SortingAlgorithm sortingAlgorithm){
         this.sortingAlgorithm = sortingAlgorithm;
     }
 
