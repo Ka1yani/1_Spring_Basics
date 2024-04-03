@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 //@Component("bubble_sort")
 @Component
-@Qualifier("bubble")
+//@Qualifier("bubble")
 public class BubbleSortAlgorithm implements SortingAlgorithm {
     @Override
     public int[] sort(int[] numbers) {

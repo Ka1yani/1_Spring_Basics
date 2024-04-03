@@ -5,8 +5,8 @@ import org.springframework.stereotype.Component;
 
 //@Component("quick_sort")
 @Component
-@Qualifier("Quick")
-//@Primary
+//@Qualifier("Quick")
+@Primary
 public class QuickSortAlgorithm implements SortingAlgorithm{
 @Override
     public int[] sort(int[] numbers){
