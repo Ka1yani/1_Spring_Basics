@@ -1,13 +1,15 @@
 package com.kalyani.springin5steps;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
 public class BinarySearchImpl {
 
     @Autowired
-    private SortingAlgorithm bubbleSortAlgorithm;
+    @Qualifier("Quick")
+    private SortingAlgorithm sortingAlgorithm;
 
     //Comment out @Autowired while using @Qualifier
     /*public BinarySearchImpl( @Qualifier("bubble_sort") SortingAlgorithm sortingAlgorithm){
@@ -16,16 +18,16 @@ public class BinarySearchImpl {
     /*public BinarySearchImpl(SortingAlgorithm sortingAlgorithm){
         this.sortingAlgorithm = sortingAlgorithm;
     }*/
-    public void setBubbleSortAlgorithm(SortingAlgorithm bubbleSortAlgorithm){
-        this.bubbleSortAlgorithm = bubbleSortAlgorithm;
+    public void setBubbleSortAlgorithm(SortingAlgorithm sortingAlgorithm){
+        this.sortingAlgorithm = sortingAlgorithm;
     }
 
     public int binarySearch(int[] numbers, int numbersToSearchFor){
         //BinarySearchImpl bubbleSortAlgorithm = new BubbleSortAlgorithm();
         //int[] sortedNumbers = bubbleSortAlgorithm.sort(numbers);
-        int[] sortedNumbers = bubbleSortAlgorithm.sort(numbers);
+        int[] sortedNumbers = sortingAlgorithm.sort(numbers);
         //System.out.println(bubbleSortAlgorithm);
-        System.out.println(bubbleSortAlgorithm);
+        System.out.println(sortingAlgorithm);
         return 3;
     }
 }
