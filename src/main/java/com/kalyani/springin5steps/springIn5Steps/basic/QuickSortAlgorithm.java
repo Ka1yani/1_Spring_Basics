@@ -1,5 +1,4 @@
-package com.kalyani.springin5steps;
-import org.springframework.beans.factory.annotation.Qualifier;
+package com.kalyani.springin5steps.springIn5Steps.basic;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
@@ -7,7 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 //@Qualifier("Quick")
 @Primary
-public class QuickSortAlgorithm implements SortingAlgorithm{
+public class QuickSortAlgorithm implements SortingAlgorithm {
 @Override
     public int[] sort(int[] numbers){
 

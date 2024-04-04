@@ -1,5 +1,4 @@
-package com.kalyani.springin5steps;
-import org.springframework.beans.factory.annotation.Qualifier;
+package com.kalyani.springin5steps.springIn5Steps.basic;
 import org.springframework.stereotype.Component;
 
 //@Component("bubble_sort")

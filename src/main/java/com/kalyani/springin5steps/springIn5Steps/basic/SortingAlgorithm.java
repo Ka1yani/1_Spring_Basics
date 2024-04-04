@@ -1,4 +1,4 @@
-package com.kalyani.springin5steps;
+package com.kalyani.springin5steps.springIn5Steps.basic;
 import org.springframework.stereotype.Component;
 
 @Component
