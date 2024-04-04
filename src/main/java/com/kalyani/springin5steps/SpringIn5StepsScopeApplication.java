@@ -1,6 +1,6 @@
-package com.kalyani.springin5steps.springIn5Steps.basic;
+package com.kalyani.springin5steps;
 
-import com.kalyani.springin5steps.springIn5Steps.basic.scope.PersonDAO;
+import com.kalyani.springin5steps.springIn5Steps.scope.PersonDAO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;

@@ -1,4 +1,4 @@
-package com.kalyani.springin5steps.springIn5Steps.basic;
+package com.kalyani.springin5steps;
 
 import com.kalyani.springin5steps.componentScan.ComponentDAO;
 import org.slf4j.Logger;

@@ -1,8 +1,10 @@
-package com.kalyani.springin5steps.springIn5Steps.basic;
+package com.kalyani.springin5steps;
 
+import com.kalyani.springin5steps.springIn5Steps.basic.BinarySearchImpl;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 public class SpringIn5StepsBasicApplication {

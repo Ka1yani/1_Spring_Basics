@@ -1,4 +1,4 @@
-package com.kalyani.springin5steps.springIn5Steps.basic.scope;
+package com.kalyani.springin5steps.springIn5Steps.scope;
 
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Scope;
